@@ -53,3 +53,13 @@ $ /usr/local/bin/pdnsauth-stats<br>
 <br>
 <br>
 ## Notes
+以下の項目グラフ追加<br>
+tcp-answers<br>
+tcp-queries<br>
+recursing-answers<br>
+recursing-questions<br>
+corrupt-packets<br>
+servfail-packet<br>
+timeout-packets<br>
+
+
