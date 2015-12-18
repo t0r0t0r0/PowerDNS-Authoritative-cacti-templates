@@ -1,3 +1,2 @@
 #!/bin/bash
-#
-/etc/init.d/pdns dump | awk '{gsub(/,/, "\n");print}' | cut -d "=" -f 2
+/etc/init.d/pdns dump|sed 's/,/\n/g'|awk -F"=" '{print $2}'
