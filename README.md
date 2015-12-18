@@ -61,5 +61,9 @@ recursing-questions<br>
 corrupt-packets<br>
 servfail-packet<br>
 timeout-packets<br>
+<br>
+snmpd.confで指定するextendに対するoidを指定。それに合わせてtemplate修正<br>
+<br>
+host-template作成<br>
 
 
